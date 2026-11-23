@@ -1,0 +1,87 @@
+body {
+	background-color: #f2f2f2;
+	font-family: 'poppins', sans-serif;
+}
+.navbar {
+	background-color: #001f3f !important; /* bleu foncé */
+}
+.navbar .nav-link.active {
+	font-weight: bold;
+	color: #4DA3FF !important;  /*  pour les liens actif  */
+}
+.caption-dark h5 {
+font-size: 50px;
+color: blue;
+font-weight: bold;
+}
+.caption-dark {
+	font-size: 40px;
+	color: blue;
+}
+footer {
+	background-color: #001f3f;
+	color: white;
+}
+footer a {
+	color: #00c851 !important;
+}
+footer a:hover {
+  text-decoration: underline !important;
+}
+h2 {
+	font-size: 35px;
+	color: #4DA3FF;
+	text-align: center;
+	margin-bottom: 25px;
+	font-weight: bold;
+}
+.titre-inscription {
+	color: #4DA3FF;
+}
+.apropos-section {
+	margin-top: 30px;
+ }
+.apropos-text {
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+
+}
+.img-fluid {
+	height: auto;
+	width: 367px ;
+}
+.img-apropos {
+	max-width: 300px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+.img-apropos2 {
+	max-width: 100%;
+	height: auto;
+}
+footer {
+	margin-top: 0;
+}
+.hero-formations{
+  /* Bleu clair mais lisible avec texte blanc */
+  background: linear-gradient(135deg, #4da3ff 0%, #2f80ed 100%);
+}
+.inscription-box {
+	max-width: 900px;
+	width: 100%;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+.form-img {
+	width: 300px;
+	max-width: 100%;
+	height: auto;
+}
+.form-control,
+.form-select {
+	border-radius: 12px;
+	padding: 12px;
+}

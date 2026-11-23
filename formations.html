@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Ecole de formation Tizi Ouzou</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-sm  navbar-dark bg-dark">
+	<div class="container-fluid">
+  <a class="navbar-brand" href="#">
+	<img src="images/logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+ </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+    	<span class="navbar-toggler-icon"></span>
+    	
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+
+		<ul class="navbar-nav mx-auto">
+			<li class="nav-item">
+			    <a class="nav-link" href="index.html">Acceuil </a>	
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="apropos.html">A propos </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" href="formations.html">Formations</a>	
+			</li>
+			<li class="nav-item">
+			    <a class="nav-link" href="inscription.html">Inscription</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">Contact</a>	
+			</li>
+		</ul>
+	</div>
+</div>
+</nav>
+
+  <!-- HERO -->
+  <header class="hero-formations">
+    <div class="container py-5 text-center text-white">
+      <h1 class="display-5 fw-bold">Nos Formations</h1>
+      <p class="lead mb-4">Choisissez la filière qui correspond à votre projet et développez vos compétences.</p>
+      <a href="inscription.html" class="btn btn-light btn-lg fw-semibold">S’inscrire</a>
+    </div>
+  </header>
+
+  <!-- SECTION CARDS -->
+  <main class="container my-5">
+
+    <div class="d-flex align-items-end justify-content-between flex-wrap gap-2 mb-3">
+      <div>
+        <h2 class="h3 fw-bold mb-1">Nos filières</h2>
+        <p class="text-muted mb-0">Cliquez sur “Voir programme” pour aller aux détails.</p>
+      </div>
+      <a href="#programmes" class="btn btn-outline-primary">Voir tous les programmes</a>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- 1 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-7.jpg" class="card-img-top" alt="Comptabilité">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Comptabilité Pratique & Analytique</h5>
+            <p class="card-text text-muted">
+              PC Compta + PC paie : saisie, états financiers, paie et analyse des coûts.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">12 mois</span>
+              <span class="badge bg-primary">Certificat</span>
+              <span class="badge bg-success">Présentiel</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-compta">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-8.jpg" class="card-img-top" alt="Marketing digital">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Marketing Digital</h5>
+            <p class="card-text text-muted">
+              Réseaux sociaux, publicité en ligne, contenu, SEO/SEA et stratégie digitale.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">8 mois</span>
+              <span class="badge bg-primary">Diplôme</span>
+              <span class="badge bg-success">Hybride</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-marketing">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-6.jpg" class="card-img-top" alt="Infographie">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Initiation à l’Infographie (Niv 1+2)</h5>
+            <p class="card-text text-muted">
+              Design, retouche, création d’affiches et identité visuelle (niveau 1 et 2).
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">6 mois</span>
+              <span class="badge bg-primary">Certificat</span>
+              <span class="badge bg-success">Présentiel</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-info">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-1.jpg" class="card-img-top" alt="Création site web">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Création des Sites Web</h5>
+            <p class="card-text text-muted">
+              HTML5, CSS3, Bootstrap, JavaScript, jQuery + projet web complet.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">10 mois</span>
+              <span class="badge bg-primary">Certificat</span>
+              <span class="badge bg-success">Présentiel</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-web">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-2.jpg" class="card-img-top" alt="Management">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Management d’Entreprise</h5>
+            <p class="card-text text-muted">
+              Organisation, leadership, RH, communication, gestion de projet et KPI.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">12 mois</span>
+              <span class="badge bg-primary">Diplôme</span>
+              <span class="badge bg-success">Présentiel</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-management">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-9.jpg" class="card-img-top" alt="Gestion de stock">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Approvisionnement & PC Stock</h5>
+            <p class="card-text text-muted">
+              Gestion de stock, commandes, inventaire, fournisseurs et optimisation des flux.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">9 mois</span>
+              <span class="badge bg-primary">Certificat</span>
+              <span class="badge bg-success">Présentiel</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-stock">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-4.jpg" class="card-img-top" alt="Commerce international">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">BTS Commerce International</h5>
+            <p class="card-text text-muted">
+              Import/Export, logistique, incoterms, négociation et commerce mondial.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">2 ans</span>
+              <span class="badge bg-primary">Diplôme</span>
+              <span class="badge bg-success">Hybride</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-btsci">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="col-sm-6 col-lg-4">
+        <div class="card formation-card h-100 shadow-sm">
+          <img src="images/Agree-5.jpg" class="card-img-top" alt="BT Comptabilité">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">BT Comptabilité</h5>
+            <p class="card-text text-muted">
+              Bases de comptabilité, TVA, écritures, bilan, gestion et outils bureautiques.
+            </p>
+            <div class="d-flex flex-wrap gap-2 mb-3">
+              <span class="badge bg-warning text-dark">1 an</span>
+              <span class="badge bg-primary">Certificat</span>
+              <span class="badge bg-success">Présentiel</span>
+            </div>
+            <a href="#programmes" class="btn btn-primary w-100" data-tab="#tab-btcompta">Voir programme</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- PROGRAMMES (TABS) -->
+    <section id="programmes" class="mt-5">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+        <h2 class="h3 fw-bold mb-0">Programmes détaillés</h2>
+        <a href="inscription.html" class="btn btn-outline-success">Je m’inscris</a>
+      </div>
+
+      <ul class="nav nav-tabs" id="formationsTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="tab-web-btn" data-bs-toggle="tab" data-bs-target="#tab-web" type="button" role="tab">
+            Sites Web
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-marketing-btn" data-bs-toggle="tab" data-bs-target="#tab-marketing" type="button" role="tab">
+            Marketing
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-compta-btn" data-bs-toggle="tab" data-bs-target="#tab-compta" type="button" role="tab">
+            Compta (PC)
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-info-btn" data-bs-toggle="tab" data-bs-target="#tab-info" type="button" role="tab">
+            Infographie
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-management-btn" data-bs-toggle="tab" data-bs-target="#tab-management" type="button" role="tab">
+            Management
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-stock-btn" data-bs-toggle="tab" data-bs-target="#tab-stock" type="button" role="tab">
+            Stock
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-btsci-btn" data-bs-toggle="tab" data-bs-target="#tab-btsci" type="button" role="tab">
+            BTS CI
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tab-btcompta-btn" data-bs-toggle="tab" data-bs-target="#tab-btcompta" type="button" role="tab">
+            BT Compta
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content border border-top-0 rounded-bottom p-4 bg-white shadow-sm" id="formationsTabsContent">
+
+        <!-- Web -->
+        <div class="tab-pane fade show active" id="tab-web" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>HTML5 / CSS3 (responsive)</li>
+                <li>Bootstrap 5 (grille, components)</li>
+                <li>JavaScript ES6 (DOM, events)</li>
+                <li>jQuery (sélecteurs, validation)</li>
+                <li>Projet : site complet multi-pages</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 06 mois</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Débutant → Intermédiaire</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Intégrateur Web, Front-End Junior</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marketing -->
+        <div class="tab-pane fade" id="tab-marketing" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>Stratégie digitale & personas</li>
+                <li>Social Media (Facebook/Instagram/TikTok)</li>
+                <li>SEO (bases) & Google Business</li>
+                <li>Publicité (Meta Ads / notions Google Ads)</li>
+                <li>Content marketing & calendrier éditorial</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 8 mois</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Débutant</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Community Manager, Assistant Marketing</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compta PC -->
+        <div class="tab-pane fade" id="tab-compta" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>Comptabilité générale (écritures, TVA)</li>
+                <li>Comptabilité analytique (coûts, marges)</li>
+                <li>PC Compta : saisie & états</li>
+                <li>PC Paie : bulletins, déclarations</li>
+                <li>Exercices & cas pratiques</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 12 mois</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Débutant → Intermédiaire</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Aide-comptable, Assistant paie</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Infographie -->
+        <div class="tab-pane fade" id="tab-info" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>Design : couleurs, typographies, mise en page</li>
+                <li>Retouche photo & photomontage</li>
+                <li>Création d’affiches & flyers</li>
+                <li>Identité visuelle (logo, charte)</li>
+                <li>Portfolio (Niv 1 + Niv 2)</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 6 mois</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Niv 1 + Niv 2</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Infographiste junior, Designer print</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Management -->
+        <div class="tab-pane fade" id="tab-management" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>Organisation & gestion d’entreprise</li>
+                <li>Communication & leadership</li>
+                <li>RH : recrutement, motivation, équipe</li>
+                <li>Gestion de projet (planning, risques)</li>
+                <li>Tableaux de bord & KPI</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 12 mois</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Intermédiaire</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Chef d’équipe, Assistant manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stock -->
+        <div class="tab-pane fade" id="tab-stock" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>Approvisionnement & commandes</li>
+                <li>Gestion de stock (entrées/sorties)</li>
+                <li>Inventaire & valorisation</li>
+                <li>Fournisseurs & délais</li>
+                <li>PC Stock : suivi et reporting</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 9 mois</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Débutant</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Magasinier, Gestionnaire de stock</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BTS CI -->
+        <div class="tab-pane fade" id="tab-btsci" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>Commerce international & incoterms</li>
+                <li>Import/Export & douane (bases)</li>
+                <li>Logistique & transport</li>
+                <li>Négociation & relation client</li>
+                <li>Anglais professionnel</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 3 ans</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Post-bac</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Assistant import-export, Logisticien</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BT Compta -->
+        <div class="tab-pane fade" id="tab-btcompta" role="tabpanel">
+          <div class="row g-4">
+            <div class="col-lg-7">
+              <h3 class="h5 fw-bold">Modules</h3>
+              <ul class="list-check">
+                <li>Comptabilité de base & documents</li>
+                <li>TVA, journal, grand livre</li>
+                <li>Bilan & compte de résultat (initiation)</li>
+                <li>Bureautique (Excel pour la compta)</li>
+                <li>Exercices & contrôles</li>
+              </ul>
+            </div>
+            <div class="col-lg-5">
+              <div class="info-box">
+                <p class="mb-2"><span class="fw-semibold">Durée :</span> 3 an</p>
+                <p class="mb-2"><span class="fw-semibold">Niveau :</span> Débutant</p>
+                <p class="mb-0"><span class="fw-semibold">Débouchés :</span> Aide-comptable, Assistant administratif</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- POURQUOI NOUS -->
+    <section class="mt-5">
+      <h2 class="h3 fw-bold text-center mb-4">Pourquoi choisir nos formations ?</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="p-4 text-center rounded-3 shadow-sm bg-white h-100">
+            <div class="icon-badge mb-3">🎓</div>
+            <h3 class="h5 fw-bold">Formateurs expérimentés</h3>
+            <p class="text-muted mb-0">Un encadrement sérieux et un apprentissage progressif.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 text-center rounded-3 shadow-sm bg-white h-100">
+            <div class="icon-badge mb-3">🧩</div>
+            <h3 class="h5 fw-bold">Stages & projets</h3>
+            <p class="text-muted mb-0">Des cas pratiques et un projet final pour votre portfolio.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4 text-center rounded-3 shadow-sm bg-white h-100">
+            <div class="icon-badge mb-3">🏅</div>
+            <h3 class="h5 fw-bold">Certifications</h3>
+            <p class="text-muted mb-0">Des attestations reconnues pour valoriser votre CV.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+</main><br>
+
+<footer class="text-light pt-4" style="background-color:#001f3f;">
+  <div class="container">
+    <div class="row">
+
+      <!-- Col 1 -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">École de formation</h5>
+        <p class="mb-1">Tizi Ouzou</p>
+        <p class="mb-0">Formation • Accompagnement • Réussite</p>
+      </div>
+
+      <!-- Col 2 -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Liens rapides</h5>
+        <ul class="list-unstyled">
+          <li><a class="text-light text-decoration-none" href="index.html">Accueil</a></li>
+          <li><a class="text-light text-decoration-none" href="apropos.html">A propos</a></li>
+          <li><a class="text-light text-decoration-none" href="formations.html">Formations</a></li>
+          <li><a class="text-light text-decoration-none" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Col 3 -->
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold">Contact</h5>
+        <p class="mb-1">📍 Tizi Ouzou, Algérie</p>
+        <p class="mb-1">📞 0550 00 00 00</p>
+        <p class="mb-0">✉️ contact@ecole.com</p>
+      </div>
+
+    </div>
+
+    <hr class="border-light opacity-25">
+
+    <div class="text-center pb-3">
+      <small>© 2026 École de formation Tizi Ouzou — Tous droits réservés.</small>
+    </div>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
